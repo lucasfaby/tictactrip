@@ -1,0 +1,11 @@
+Démarche
+la première étape fut d'établir un schéma relationnel entre les différentes tables csv
+Ensuite après de premier test le temps d'accès pouvait être long en raison de la taille des fichiers
+J'ai donc crée des dictionnaires afin parcourir au minimum les différents fichiers
+Dans la même démarche j'ai créé un index inversé car même avec les dictionnaires le temps d'accès au ticket était trop long
+Pour simplifier les démarches j'ai créé une classe trajet avec des fonctions pour simplifier le code
+
+J'ai testé le code pour deux couple de villes orleans-montpellier et paris-lille
+
+J'ai mis des print partout mais ces données peuvent être stockée dans des fichiers externes et sont souvent facilement accessible grâce à la Classe trajet
+
